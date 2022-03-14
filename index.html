@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="pre-title">숫자 맞추기 게임</h1>
+      <h1 class="title">숫자 게임</h1>
+      <h1 class="sub-title"><span class="red-text">숫자</span>업 & 다운</h1>
+      <div id="result-area">
+        <h1 class="result-text">숫자 맞추기</h1>
+      </div>
+      <h2 id="chance-area">남은 기회:</h2>
+      <div>
+        <div>
+          <input
+            type="number"
+            id="user-input"
+            class="form-control"
+            placeholder="1부터 100까지 숫자를 입력"
+          />
+        </div>
+        <div>
+          <button id="play-button">Go!!</button>
+          <button class="button-reset">리셋!</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

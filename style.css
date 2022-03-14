@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 10px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(247, 243, 242, 0.7);
+  height: 50vh;
+  width: 50vw;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.border-line {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-style {
+  height: 40px;
+  width: 50px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border-radius: 50px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+.pre-title {
+  font-size: 10vw;
+  font-weight: bold;
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.form-control {
+  height: 80px;
+
+  font-size: 1vw;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.pre-title {
+  font-size: 20px;
+}
+.title {
+  font-size: 15px;
+}
+.sub-title {
+  font-size: 10px;
+}
+.form-control {
+  font-size: 5vh;
+  max-width: 500px;
+  margin-right: 0px;
+}
+.button-reset {
+  font-size: 5px;
+  width: 40px;
+  height: 30px;
+  margin-top: 20px;
+}
+#play-button {
+  font-size: 5px;
+  width: 40px;
+  height: 30px;
+}
+.form-control {
+  height: 100%;
+  width: 100%;
+}
